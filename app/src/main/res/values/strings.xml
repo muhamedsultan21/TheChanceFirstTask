@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TheChanceFirstTask</string>
+    <string name="name">Ahmed hassan</string>
+    <string name="profession">Engineer</string>
+    <string name="location"> UK</string>
+    <string name="reviews">(150 Reviews) 4.5</string>
+    <string name="hr">3 hr</string>
+    <string name="nationality">Russian</string>
+    <string name="days">5 Days ago</string>
+</resources>
