@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="horizontal">
+    android:orientation="vertical"
+    android:layout_margin="5dp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,23 +16,21 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="121dp"
-            android:layout_height="120dp"
-            android:layout_margin="8dp"
-            android:padding="5dp"
+            android:layout_width="105dp"
+            android:layout_height="107dp"
+            android:layout_margin="5dp"
             android:scaleType="fitXY"
             android:src="@drawable/person_image" />
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+           >
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
                 android:text="@string/name"
                 android:textColor="@color/black"
                 android:textSize="18sp"
@@ -39,20 +38,20 @@
 
             <TextView
                 android:id="@+id/textView2"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="7dp"
+                android:layout_marginTop="6dp"
                 android:text="@string/profession"
                 android:textColor="@color/dark_blue"
-                android:textSize="16sp"
-                android:textStyle="bold" />
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/textView3"
-                android:layout_width="wrap_content"
+                android:layout_width="60dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="7dp"
-                android:padding="5dp"
+                android:layout_marginTop="6dp"
+                android:gravity="end"
+                android:paddingHorizontal="10dp"
                 android:text="@string/location"
                 android:textColor="@color/dark_blue"
                 android:textSize="16sp"
@@ -66,15 +65,15 @@
                 android:id="@+id/textView4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_star"
                 android:text="@string/reviews"
-                android:textColor="@color/black"
-                android:drawableRight="@drawable/ic_star"/>
+                android:layout_marginTop="6dp"
+                android:textColor="@color/black" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="5dp"
             android:gravity="end"
             android:orientation="vertical">
 
@@ -82,12 +81,12 @@
                 android:id="@+id/textView5"
                 android:layout_width="56dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="10dp"
                 android:background="@drawable/text_view_background"
-                android:gravity="center"
                 android:padding="3dp"
+                android:layout_gravity="center"
+                android:gravity="center"
                 android:text="@string/hr"
+                android:layout_marginTop="4dp"
                 android:textColor="@color/white"
                 android:textSize="16sp" />
 
@@ -95,20 +94,19 @@
                 android:id="@+id/textView7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="7dp"
-                android:layout_marginEnd="10dp"
+                android:layout_marginTop="6dp"
                 android:text="@string/nationality"
+                android:layout_gravity="center"
                 android:textColor="@color/dark_blue"
-                android:textSize="16sp"
-                android:textStyle="bold|normal" />
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="7dp"
-                android:layout_marginEnd="10dp"
+                android:layout_marginTop="6dp"
                 android:text="@string/days"
+                android:layout_gravity="center"
                 android:textColor="#61122940"
                 android:textSize="16sp" />
         </LinearLayout>
