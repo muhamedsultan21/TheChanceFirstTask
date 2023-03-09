@@ -20,6 +20,7 @@
             android:layout_height="107dp"
             android:layout_margin="5dp"
             android:scaleType="fitXY"
+            android:background="@drawable/image_background"
             android:src="@drawable/person_image" />
 
         <LinearLayout
@@ -74,7 +75,6 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="end"
             android:orientation="vertical">
 
             <TextView
@@ -83,7 +83,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/text_view_background"
                 android:padding="3dp"
-                android:layout_gravity="center"
+                android:layout_gravity="end"
                 android:gravity="center"
                 android:text="@string/hr"
                 android:layout_marginTop="4dp"
@@ -96,7 +96,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="6dp"
                 android:text="@string/nationality"
-                android:layout_gravity="center"
+                android:layout_gravity="end"
                 android:textColor="@color/dark_blue"
                 android:textSize="16sp" />
 
@@ -106,7 +106,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="6dp"
                 android:text="@string/days"
-                android:layout_gravity="center"
+                android:layout_gravity="end"
                 android:textColor="#61122940"
                 android:textSize="16sp" />
         </LinearLayout>
